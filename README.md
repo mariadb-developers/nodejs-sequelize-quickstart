@@ -24,7 +24,7 @@ _For example:_
 $ mariadb --host 127.0.0.1 --user root --pRootPassword123! < schema.sql
 ```
 
-3.) Step in to the [src](src) directory and install the MariaDB Node.js driver (connector) using [npm](npmjs.com).
+3.) Step in to the [src](src) directory and install the [MariaDB Node.js driver (connector)](https://www.npmjs.com/package/mariadb) using [npm](npmjs.com), [Sequelize](https://www.npmjs.com/package/sequelize) and [dotenv](https://www.npmjs.com/package/dotenv) (a zero-dependency module that loads environment variables from a `.env` file).
 
 
 ```bash
