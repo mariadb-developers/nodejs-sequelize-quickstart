@@ -1,4 +1,4 @@
-const db = require("./db.js");
+const db = require("../db.js");
 const Customer = db.customers;
 
 async function asyncFunction() {
