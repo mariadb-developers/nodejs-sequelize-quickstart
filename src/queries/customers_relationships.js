@@ -1,4 +1,4 @@
-const db = require("../db_sequelize.js");
+const db = require("../db.js");
 const Customer = db.customers;
 const Order = db.orders;
 const Product = db.products;
